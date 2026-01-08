@@ -1,0 +1,30 @@
+# 编译生成的可执行文件
+c/test
+cpp/test
+rust/test
+go/test
+
+# C#编译生成的文件
+csharp/bin/
+csharp/obj/
+
+# Java编译生成的文件
+java/*.class
+
+# Python编译生成的文件
+python/__pycache__/
+
+# 其他临时文件
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# IDE配置文件
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 日志文件
+*.log
